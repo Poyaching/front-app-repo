@@ -86,7 +86,7 @@ jobs:
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
         with:
-          repository: front-app-repo/k8s-manifest-repo
+          repository: Poyaching/k8s-manifest-repo
           ref: main
           token: ${{ secrets.ACTION_TOKEN }}
           path: k8s-manifest-repo
